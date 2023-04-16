@@ -1,0 +1,41 @@
+section{
+    background-image:linear-gradient(lightblue,lightyellow);
+    font-weight: 900;
+    color:black;
+}
+.section{
+    background-color: black;
+    border: solid grey 1px;
+    color:white;
+    text-align: center;
+    font-size: 3rem;
+}
+.subsection{
+    background-color: darkgray;
+    color:white;
+    font-size:2rem;
+    text-align: center;
+    padding:2%;
+    margin:5%;
+}
+.content{
+    text-align: center;
+    margin:2%;
+    padding:2%;
+    font-size: 1.5rem;
+}
+form>table,input{
+    display: block;
+    margin-left: 10%;
+    margin-right:10%;
+    margin-top:5%;
+    margin-bottom: 5%;
+    font-size: 3rem;
+}
+.handling{
+    font-size: 4rem;
+    margin:2%;
+    padding:2%;
+    font-weight: 900;
+    color:red;
+}

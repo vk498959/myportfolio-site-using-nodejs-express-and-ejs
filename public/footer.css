@@ -1,0 +1,28 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    border:solid silver 5px;
+}
+footer>div{
+    display:flex;
+}
+footer>div>ul{
+    display: flex;
+    flex-direction:column;
+    background-color: black;
+    width: 30%;
+    padding:3%;
+}
+.link{
+    padding:5%;
+    border:solid grey 1px;
+    color:white;
+    border-radius: 10%;
+}
+.tcenter{
+    background-color: black;
+    padding:0.5%;
+    display:block;
+    text-align: center;
+    color:white;
+}

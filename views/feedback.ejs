@@ -1,0 +1,27 @@
+<%- include('resources/header.ejs') -%>
+<div>
+    <div class="section">YOUR FEEDBACK</div>
+    <form action="/submit" method="post">
+        <table>
+            <tr>
+                <td>Your Name</td>
+                <td><input required type="text" name="name"></td>
+            </tr>
+            <tr>
+                <td>Write Your Feedback</td>
+                <td><input required type="text" name="feedback"></td>
+            </tr>
+            <tr>
+                <td>Your Email</td>
+                <td><input required type="email" name="email"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="submit"></td>
+                <td><input type="reset" value="reset"></td>
+            </tr>
+        </table>
+    </form>
+
+    
+</div>
+<%- include('resources/footer.ejs') -%>
